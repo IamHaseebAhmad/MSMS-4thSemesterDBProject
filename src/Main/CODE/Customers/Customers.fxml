@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="529.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.CODE.Customers.CustomersController">
+    <children>
+        <Pane layoutX="-142.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" />
+        <TableView fx:id="CusData" layoutX="27.0" layoutY="98.0" prefHeight="404.0" prefWidth="809.0">
+            <columns>
+                <TableColumn fx:id="id" prefWidth="53.00001525878906" text="ID" />
+                <TableColumn fx:id="name" prefWidth="96.99998474121094" text="NAME" />
+                <TableColumn fx:id="email" prefWidth="119.0" text="EMAIL" />
+                <TableColumn fx:id="mobile" prefWidth="103.0" text="MOBILE" />
+                <TableColumn fx:id="address" prefWidth="102.0" text="ADDRESS" />
+                <TableColumn fx:id="p_desc" prefWidth="213.0" text="PURCHASE DESCRIPTION" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
